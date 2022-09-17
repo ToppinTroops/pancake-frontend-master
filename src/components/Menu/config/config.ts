@@ -51,6 +51,7 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
   },
   {
     label: '',
+    href: '/info',
     icon: MoreIcon,
     hideSubNav: true,
     items: [
